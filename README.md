@@ -122,3 +122,38 @@ Finally confirm the script exists:
 ``` bash
 ls -l /root/rl-swarm/log_alert_bot.py
 ```
+
+## ▶️ Running the Bot
+Step 1: Start the script in foreground
+
+``` bash
+python3 /root/rl-swarm/log_alert_bot.py
+```
+To stop it: press ```Ctrl + C```
+
+Step 2: Run the script in the background
+``` bash
+
+nohup python3 /root/rl-swarm/log_alert_bot.py > /root/rl-swarm/nohup.log 2>&1 &
+```
+Check if it's running by viewing logs:
+``` bash
+tail -f /root/rl-swarm/nohup.log
+```
+##✅ Test Your Bot
+Send a test error to your log file:
+``` bash
+echo "Test error: out of memory" >> /root/rl-swarm/logs/training_your_peer_name.log
+```
+
+You should receive a Telegram alert instantly.
+
+##🔚 Notes
+You can edit KEYWORDS in the script to customize what triggers alerts.
+
+You can monitor multiple log files by adding more paths to the LOG_FILES list.
+
+Created with ❤️ by ```gasoline2255```
+
+
+---
