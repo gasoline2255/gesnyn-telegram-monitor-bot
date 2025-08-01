@@ -26,3 +26,8 @@ Send a message to your new bot
 Visit: https: //api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
 
 Look for "chat": { "id": YOUR_CHAT_ID } in the response
+
+✅ Step 3: Install Required Python Packages
+On your server: 
+
+``` pip install requests ```
