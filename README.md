@@ -12,6 +12,17 @@ A lightweight Telegram bot that monitors Gensyn node logs in real-time and sends
 ## 📦 Installation
 ### 1️⃣ Create a Telegram Bot
 
-1. Open Telegram and search for [@BotFather]
-2. Use `/newbot` to create a bot and get your **Bot Token**
-3. Get your **Chat ID** by messaging on your bot
+📲 Telegram Bot Setup (Quick Guide)
+1️⃣ Create a Bot
+
+Chat with @BotFather
+
+Send /newbot → follow instructions → save the bot token
+
+2️⃣ Get Your Chat ID
+
+Send a message to your new bot
+
+Visit: https: //api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
+
+Look for "chat": { "id": YOUR_CHAT_ID } in the response
