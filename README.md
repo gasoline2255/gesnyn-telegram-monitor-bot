@@ -13,6 +13,9 @@ A lightweight Python script that monitors your Gensyn node logs in real-time and
   - Runtime or custom error keywords
 - 🔧 Easy to set up and run in background
 
+![image alt] (https://github.com/gasoline2255/gesnyn-telegram-monitor-bot/blob/c8875c672a9b9a77a651b36ccd4c159b48d39ae6/Screenshot%202025-08-02%20024845.jpg)
+
+
 ---
 
 ## 📦 Installation
