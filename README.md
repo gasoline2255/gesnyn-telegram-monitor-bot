@@ -143,7 +143,7 @@ Check if it's running by viewing logs:
 ``` bash
 tail -f /root/rl-swarm/nohup.log
 ```
-✅ Test Your Bot
+## ✅ Test Your Bot
 Send a test error to your log file:
 ``` bash
 echo "Test error: out of memory" >> /root/rl-swarm/logs/training_your_peer_name.log
