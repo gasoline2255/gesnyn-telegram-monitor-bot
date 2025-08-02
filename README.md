@@ -9,7 +9,7 @@ A lightweight Python script that monitors your Gensyn node logs in real-time and
 - ✅ Real-time log monitoring
 - 📬 Telegram alerts for:
   - Crashes
-  - Out of memory errors
+  - Ran out of input
   - Runtime or custom error keywords
 - 🔧 Easy to set up and run in background
 
